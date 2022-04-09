@@ -333,6 +333,7 @@ pub struct PriceStats {
     pub low_price: f64,
     #[serde(with = "string_or_float")]
     pub volume: f64,
+    pub quote_volume: f64,
     pub open_time: u64,
     pub close_time: u64,
     pub first_id: i64,
